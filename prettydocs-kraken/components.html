@@ -113,10 +113,10 @@
                            <section id="learn-to-trade" class="doc-section">
                                 <h2 class="section-title">Learning the Basics of Trading</h2>
                                 <div id="step1"  class="section-block">
-                                    <p>If you already know the financial jargon of the crypto ecosystem, and just want to learn how to buy & sell, jump ahead to <a class="nav-link scrollto" href="#projects">Placing Orders</a> If you're a novice then you should read this section, as it will explain some useful financial terms.   
+                                    <p>If you already know the financial jargon of investing, and just want to learn how to buy & sell, jump ahead to <a class="nav-link scrollto" href="#projects">Placing Orders</a> If you're a novice then you should read this section, as it will explain some useful financial terms.   
                                     </p>
-                                    <h3 class="block-title">Bid & Ask price</h3>
-                                    <p>The <b>Ask price</b> is the lowest price that sellers are willing to sell at. When you want to buy cryptocurrency, you will buy at the current Ask price (Note: you may pay a higher price for some of your crypto, if there is not enough crypto available at the current Ask price. Let's say the current Ask price for Bitcoin is 29685.2 USD, and there are 11 Bitcoin available at the price. If you want to buy 12 Bitcoin, you will only be able to buy 11 Bitcoin at 29685.2 USD. The remaining part of your order (1 Bitcoin) will be bought at the next highest price). <br><br> Looking at the image of the Chart Menu, you can see the current Ask price is 29685.2 USD, which is at the bottom of the column of red numbers. The next seller is willing to sell at 29685.3 USD </p>
+                                    <h3 class="block-title">Ask & Bid price</h3>
+                                    <p>The <b>Ask price</b> is the lowest price that sellers are willing to sell at. When you want to buy cryptocurrency, you will buy at the current Ask price (Note: you will pay a higher price for some of your crypto, if there isn't enough currency available at the current Ask price). Let's say the current Ask price for Bitcoin (BTC) is 29685.2 USD, and there is 1 BTC available at that price (Note: the amount available is called the Volume, so we have a Volume of 1 BTC at 29658.2 USD). If you want to buy 2 BTC, you will only be able to buy 1 BTC at 29685.2 USD. The remaining part of your order (1 BTC) will be bought at the next highest price). <br><br> Looking at the image of the Chart Menu, you can see the current Ask price is 29685.2 USD, which is at the bottom of the column of red numbers. The Volume of BTC is 1.39362018. If you want to buy 2 BTC, you will buy 1.39 BTC at 29685.2 USD and the remaining 0.61 BTC from the next seller at 29685.3 USD </p>
 <img class="img-fluid" src="assets/images/demo/askprice1.png" alt="screenshot" />
                                             
    
@@ -124,47 +124,49 @@
 
 <br><br>
 
-                                    <p>The <b>Bid price</b> is the exact opposite of the Ask price. It's the highest price that buyers are willing to buy at. So if you're selling Bitcoin, the highest someone is going to buy it off you is at 29685.1 USD (see the green column of numbers in the image above)
+                                    <p>The <b>Bid price</b> is the exact opposite of the Ask price. It's the highest price that buyers are willing to buy at. So if you're selling BTC, the highest price someone will buy it from you is at 29685.1 USD (see the green column of numbers in the image above)
                                     </p>
-                                    <div class="code-block">
-                                        <h6>Default code example:</h6>
-                                        <p><code>bower install &lt;package&gt;</code></p>
-                                        <p><code>npm install &lt;package&gt;</code></p>
-                                    </div><!--//code-block-->
+
                                 </div><!--//section-block-->
                                 <div id="step2"  class="section-block">
                                     <h3 class="block-title">Types of Orders</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                                    <p>In order to buy or sell cryptocurrencies, you have to place an order. There are several types of order in the Kraken exchange:
                                     </p>
                                     <div class="row">
                                         <div class="col-md-6 col-12">
-                                            <h6>Ordered list example</h6>
+                                            <h6>Order List</h6>
                                             <ol class="list">
-        										<li>Lorem ipsum dolor sit amet.</li>
-        										<li>Aliquam tincidunt mauris.</li>
-        										<li>Ultricies eget vel aliquam libero.
-        											<ul>
-        												<li>Turpis pulvinar</li>
-        												<li>Feugiat scelerisque</li>
-        												<li>Ut tincidunt</li>
-        											</ul>
-        										</li>
-        										<li>Pellentesque habitant morbi.</li>
-        										<li>Praesent dapibus, neque id.</li>
+        										<li>Market Order</li>
+        										<li>Limit Order</li>
+        										<li>Stop Loss</li>
+											<li>Take Profit</li>
+        										<li>Stop Loss Limit Order</li>
+        										<li>Take Profit Limit Order</li>
         									</ol>
+
                                         </div>
+
                                     </div><!--//row-->
+						<p><b>1. Market Order</b><br>
+						A Market Order is the simplest type of order. It is an instant order where you specify the amount of currency you want to buy or sell. If you're buying, you will buy at the Ask price (in the manner we previously described), and if you're selling, you sell at the Bid price. When your order goes through and you make the purchase or sale, this is called "getting filled".</p>
+
+						<p><b>2. Limit Order</b><br>
+						A Limit Order is useful when you want to buy or sell at a specific price. In the description of the Ask price, we saw that the current Ask price was 29685.2 USD with a Volume of 1.39362018. A seller in the market created a Limit Order stating that they wanted to sell 1.39362018 of BTC at 29685.2 USD, and this Limit Order was entered into the Order Book. Above that, in the Order Book, you can see that another seller created a Limit Order where they want to sell 5.05354733 BTC at 29685.3. <br><br>So you may have made a Market Order where you bought 1 BTC at 29685.2 USD. Now you want to sell it at 29695.2 USD to make a profit. You can create a Limit Order for this and the order will be put into the Order Book. It may take some time for the order to get filled depending on the movement of the market price, for instance, if there are more sellers than buyers in the market, the price of the crytocurrency could drop significantly, meaning that there is no demand to buy your BTC at such a high price.</p>
+						<p><b>3. Stop Loss</b><br>
+						</p>
+						<p><b>4. Take Profit</b><br>
+						</p>
+						<p><b>5. Stop Loss Limit Order</b><br>
+						</p>
+						<p><b>6. Take Profit Limit Order</b><br>
+						</p>
                                 </div><!--//section-block-->
-                                <div id="step3"  class="section-block">
-                                    <h3 class="block-title">Step Three</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
-                                    </p>
-                                </div><!--//section-block-->
+
                             </section><!--//doc-section-->
 
                             
                             <section id="app-components" class="doc-section">
-                                <h2 class="section-title">App Components</h2>
+                                <h2 class="section-title">Exchange Tools</h2>
                                 <div id="projects" class="section-block">
                                     <h3 class="block-title">Placing Orders</h3>
                                     <p>Intro goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis</p>
@@ -360,11 +362,10 @@
                                 <a class="nav-link scrollto" href="#dashboards">Dashboards</a>
 	                        <a class="nav-link scrollto" href="#learn-to-trade">Learning the Basics of Trading</a>
                                     <nav class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto" href="#step1">Bid & Ask price</a>
+                                        <a class="nav-link scrollto" href="#step1">Ask & Bid price</a>
                                         <a class="nav-link scrollto" href="#step2">Types of Orders</a>
-                                        <a class="nav-link scrollto" href="#step3">Step Three</a>
                                     </nav><!--//nav-->
-                                <a class="nav-link scrollto" href="#app-components">App Components</a>
+                                <a class="nav-link scrollto" href="#app-components">Exchange Tools</a>
                                     <nav class="doc-sub-menu nav flex-column">
                                         <a class="nav-link scrollto" href="#projects">Placing Orders</a>
                                         <a class="nav-link scrollto" href="#discussions">Discussions</a>
