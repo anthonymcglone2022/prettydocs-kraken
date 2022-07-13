@@ -63,16 +63,19 @@
                         <div class="content-inner">
 
                             <section id="chartjs" class="doc-section">
-<p><b>Note:</b> If you haven't already created your API key, <a href="start.html" target="_blank">you should do this now</a>, because you will need it to trade with the Exchange via the API.</p>
+<p><b>Note:</b> If you haven't already created your API key, <a href="start.html" target="_blank">you will need to set it up</a>, so you can trade with the Exchange via the API.</p>
                                 <h2 class="section-title">Terminology</h2>
                                 <div class="section-block">
 
                                    <h3 class="block-title">1. What's an API ?</h3>
 
-					<p>An <b>API</b> is an application programming interface. The API is code located on a server, which you can interact with via the Internet. The Kraken API would normally be used by users who perform multiple trades a day, at such frequency that using the website's trading menus becomes impractical.</p>
+					<p><b>API</b> stands for application programming interface. The API is our application code, which is located on our server, and which you can interact with via the HTTP protocol. Our API would normally be used by Traders who perform so many trades in a day that using the website's trading menu would be impractical.</p>
 
 				   <h3 class="block-title">2. What's the HTTP protocol ?</h3>
-					<p>You can use the HTTP protocol to tell the API what you want it to do (i.e. place an Order in the Kraken Exchange, get the amount of BTC (or other crypto) you have in your Kraken account and so on). The <b>HTTP protocol</b> consists of a number of operations, POST and GET, which are used to interact with the API</p>
+					<p>You can use the <b>HTTP protocol</b> to tell the API what you want it to do (i.e. place an Order in the Kraken Exchange, get the amount of BTC (or other crypto) you have in your Kraken account and so on). The HTTP protocol consists of a number of operations, POST and GET, which are used to interact with the API. With a POST request, you can send data like the type and volume of crypto you want to buy or sell. The protocol's GET request can be used to retrieve information from the Exchange, like what's the current price of Bitcoin etc.</p>
+
+				   <h3 class="block-title">2. What's an endpoint ?</h3>
+					<p>And endpoint is a route to the specific piece of code that you want to execute. </p>
 
 
                                 </div><!--//section-block-->
