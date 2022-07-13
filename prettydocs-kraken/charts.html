@@ -61,15 +61,20 @@
                 <div class="doc-body row">
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
+
                             <section id="chartjs" class="doc-section">
-                                <h2 class="section-title">Placing orders</h2>
+<p><b>Note:</b> If you haven't already created your API key, <a href="start.html" target="_blank">you should do this now</a>, because you will need it to trade with the Exchange via the API.</p>
+                                <h2 class="section-title">Terminology</h2>
                                 <div class="section-block">
-                                    <h3 class="block-title">1. Screenshot</h3>
-                                    <p>The screenshots used in this page are taken from <a href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank">Appify</a>. Appify is a Bootstrap 4 admin template made for app developers.</p>
-                                    <div class="screenshot-holder">
-                                        <a href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank"><img class="img-fluid" src="assets/images/demo/appify-chart-chartjs.jpg" alt="screenshot" /></a>
-                                        <a class="mask" href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank"><i class="icon fa fa-link"></i></a>
-                                    </div> 
+
+                                   <h3 class="block-title">1. What's an API ?</h3>
+
+					<p>An <b>API</b> is an application programming interface. The API is code located on a server, which you can interact with via the Internet. The Kraken API would normally be used by users who perform multiple trades a day, at such frequency that using the website's trading menus becomes impractical.</p>
+
+				   <h3 class="block-title">2. What's the HTTP protocol ?</h3>
+					<p>You can use the HTTP protocol to tell the API what you want it to do (i.e. place an Order in the Kraken Exchange, get the amount of BTC (or other crypto) you have in your Kraken account and so on). The <b>HTTP protocol</b> consists of a number of operations, POST and GET, which are used to interact with the API</p>
+
+
                                 </div><!--//section-block-->
                                 <div class="section-block">
                                     <h3 class="block-title">2. Global Configurations</h3>
@@ -335,7 +340,7 @@ javascript code:</p>
                     <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
                         <div id="doc-nav" class="doc-nav">
                             <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                <a class="nav-link scrollto" href="#chartjs">Placing orders</a>
+                                <a class="nav-link scrollto" href="#chartjs">Terminology</a>
                                 <a class="nav-link scrollto" href="#flot">Flot Charts</a>
                                 <a class="nav-link scrollto" href="#morris">Morris.js</a>
                                 <a class="nav-link scrollto" href="#inline">Inline Charts</a>
